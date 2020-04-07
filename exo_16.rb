@@ -1,11 +1,12 @@
-puts "Quel est votre année de naissance?"
+puts "Quel est votre age?"
 print ">"
-year = gets.chomp.to_i
-age = 0
+age = gets.chomp.to_i
+year = 2020 - age
+minage = 0
 
 while (year <= 2020)
-	puts "Il y a #{2020 - year} ans, tu avais #{age} ans"
-	age += 1
+	puts "Il y a #{2020 - year} ans, tu avais #{minage} ans"
+	minage += 1
 	year += 1
 
 end
